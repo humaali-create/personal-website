@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huma | AI-Native Engineer in Training</title>
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="[https://fonts.googleapis.com">](https://fonts.googleapis.com">)
+    <link rel="preconnect" href="[https://fonts.gstatic.com"](https://fonts.gstatic.com") crossorigin>
+    <link href="[https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap"](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap") rel="stylesheet">
     
     <style>
         :root {
@@ -212,6 +212,34 @@
             font-weight: 600;
         }
 
+        /* Core Skills inside About */
+        .about-skills-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-top: 20px;
+            margin-bottom: 12px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .about-skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .about-skills-list span {
+            background: rgba(112, 130, 56, 0.12);
+            border: 1px solid var(--accent-olive);
+            color: var(--accent-olive-light);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
         /* Skills Section */
         .skills-grid {
             display: grid;
@@ -371,7 +399,7 @@
                 font-size: 2.2rem;
             }
             .nav-links {
-                display: none; /* Keep it clean for mobile-first simplicity, or expand with JS burger menu if needed */
+                display: none;
             }
             .timeline-header {
                 flex-direction: column;
@@ -409,13 +437,33 @@
             </div>
         </section>
 
-        <!-- About Me Section -->
+        <!-- About Me Section — UPDATED -->
         <section id="about">
             <h2>About Me</h2>
             <div class="story-card">
-                <p>Growth isn't always a straight line. Having overcome significant personal adversity, I learned firsthand how to rebuild, adapt, and remain focused under pressure. I brought that exact resilience into public service, working at the <strong>DMV</strong>.</p>
-                <p>In a high-volume public environment, I mastered critical communication, sharp problem-solving, and de-escalation skills. It taught me how to understand user frustrations—a perspective I now bring directly to technical architecture.</p>
-                <p>Today, I am channeling my grit into technology. As an <span class="highlight">AI-native engineer in training</span>, I don't just write code from scratch; I collaborate with advanced models to build faster, test smarter, and iterate seamlessly.</p>
+                <p>
+                    Aspiring <span class="highlight">AI-native Software Engineer</span> with a user-first mindset
+                    and a foundation in resilience, adaptability, and problem solving.
+                </p>
+                <p>
+                    My experience in a high-volume public service environment strengthened my
+                    communication, critical thinking, and ability to perform under pressure.
+                </p>
+                <p>
+                    Today, I combine engineering fundamentals with AI-assisted development to
+                    build, test, and improve software efficiently. I'm seeking an opportunity to
+                    contribute to impactful products while continuing to grow as a software engineer.
+                </p>
+
+                <div class="about-skills-title">Core Skills</div>
+                <div class="about-skills-list">
+                    <span>AI-Assisted Development</span>
+                    <span>Problem Solving</span>
+                    <span>Critical Thinking</span>
+                    <span>Communication</span>
+                    <span>User-Centered Mindset</span>
+                    <span>Adaptability</span>
+                </div>
             </div>
         </section>
 
@@ -478,7 +526,7 @@
             <h2>Featured Projects</h2>
             <div class="projects-placeholder">
                 <h3>Building in Progress...</h3>
-                <p style="color: var(--text-muted); font-size: 0.95rem;">I am currently leveraging Python and LLMs to ship my first AI-native applications. Check back soon, or reach out to see what’s cooking in my local environment.</p>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">I am currently leveraging Python and LLMs to ship my first AI-native applications. Check back soon, or reach out to see what's cooking in my local environment.</p>
             </div>
         </section>
 
